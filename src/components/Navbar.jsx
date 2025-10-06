@@ -4,10 +4,8 @@ import { Mail, Phone, ShoppingCart, Heart, User, ChevronDown, Search, Menu, X } 
 
 const navLinks = [
   { name: 'Home', path: '/' },
-  { name: 'Pages', path: '/pages' }, 
-  { name: 'Products', path: '/products' }, 
-  { name: 'Blog', path: '/blog' },
   { name: 'Shop', path: '/shop' },
+  { name: 'Blog', path: '/blog' },
   { name: 'Contact', path: '/contact' },
 ];
 

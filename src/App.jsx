@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 // Pages
 import Home from "./pages/Home";
-// import Shop from "./pages/Shop";  
+import Shop from "./pages/Shop";  
 
 export default function App() {
   return (
@@ -16,7 +16,7 @@ export default function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/shop" element={<Shop />} /> */}
+            <Route path="/shop" element={<Shop />} />
           </Routes>
         </main>
         
